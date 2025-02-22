@@ -2,6 +2,7 @@
 {
     public class ResponseBooksJson
     {
-        public List<Book> = []
+        public ResponsePaginationJson Pagination { get; set; } = default!;
+        public List<ResponseBookJson> Books { get; set; } = [];
     }
 }

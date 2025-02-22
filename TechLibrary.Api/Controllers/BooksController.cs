@@ -24,7 +24,7 @@ namespace TechLibrary.Api.Controllers
 
             if (result.Books.Count > 0)
             {
-                return Ok(result)
+                return Ok(result);
             }
 
             return NoContent();

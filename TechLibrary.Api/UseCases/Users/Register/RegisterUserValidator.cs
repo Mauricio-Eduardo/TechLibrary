@@ -3,7 +3,7 @@ using TechLibrary.Communication.Requests;
 
 namespace TechLibrary.Api.UseCases.Users.Register
 {
-    public class RegisterUserValidator: AbstractValidator<RequestUserJson>
+    public class RegisterUserValidator : AbstractValidator<RequestUserJson>
     {
         public RegisterUserValidator()
         {
